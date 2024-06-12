@@ -16,176 +16,199 @@
   <body>
 
   <!--========== NAV-BAR =======-->
+
     <header id="nav-menu" aria-label="navigation bar">
-      <div class="nav__container">
-        <div class="nav-start">
-          <a class="logo" href="index.html">
-            <img src="assets/images/logo-removebg-preview.png" width="90" height="80" alt="Inc Logo"/>
-          </a>
-          <nav class="menu">
-            <ul class="menu-bar">
-              <li>
+      <section class="section nav__section">
+        <div class="nav__container">
+          <div class="nav-start">
+            <a class="logo" href="index.html">
+              <img src="assets/images/logo-removebg-preview.png"  alt="Inc Logo"/>
+            </a>
+            <nav class="menu">
+              <ul class="menu-bar">
+                <li><a class="nav-link" href="index.html">Home</a></li>
 
-                <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="browse">
-                  Services
-                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                </button>
+                <li>
+                  <button class="nav-link dropdown-button" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="browse">
+                    Services
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
 
-                <div id="dropdown1" class="dropdown">
-                  <ul role="menu">
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html" >
-                        <img src="./assets/icons/demo.svg" class="icon"  alt="demo"/>
-                        <div>
-                          <span class="dropdown-link-title">Demo & POC</span>
-                          <p>Shorts featured today by curators</p>
-                        </div>
-                      </a>
-                    </li>
+                  <div id="dropdown1" class="dropdown">
+                    <ul role="menu">
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html" >
+                          <img src="./assets/icons/demo.svg" class="icon"  alt="demo"/>
+                          <div>
+                            <span class="dropdown-link-title">Demo & POC</span>
+                            <p>Shorts featured today by curators</p>
+                          </div>
+                        </a>
+                      </li>
 
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/solution_design.svg" class="icon"  alt="solution"/>
-                        <div>
-                          <span class="dropdown-link-title">Solution design</span>
-                          <p>Leading creatives livestreams</p>
-                        </div>
-                      </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/implementation.svg" class="icon"  alt="implement"/>
-                        <div>
-                          <span class="dropdown-link-title">Implementation</span>
-                          <p>Gain exclusive access</p>
-                        </div>
-                      </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/assessment.svg" class="icon"  alt="assessment"/>
-                        <div>
-                          <span class="dropdown-link-title">Assessment Services</span>
-                          <p>See trending creations</p>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/solution_design.svg" class="icon"  alt="solution"/>
+                          <div>
+                            <span class="dropdown-link-title">Solution design</span>
+                            <p>Leading creatives livestreams</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/implementation.svg" class="icon"  alt="implement"/>
+                          <div>
+                            <span class="dropdown-link-title">Implementation</span>
+                            <p>Gain exclusive access</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/assessment.svg" class="icon"  alt="assessment"/>
+                          <div>
+                            <span class="dropdown-link-title">Assessment Services</span>
+                            <p>See trending creations</p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-                  <ul role="menu">
-                    <li class="dropdown-title">
-                      <span class="dropdown-link-title">Browse by Technology</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/distribution_light.svg"  alt="distribute"/>Product <br> Distribution
-                      </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/virus_light.svg"  alt="virus"/>Virus <br> Outbreak
-                      </a>
-                    </li>
+                <li>
+                  <button class="nav-link dropdown-button" data-dropdown="dropdown3" aria-haspopup="true" aria-expanded="false" aria-label="browse">
+                    Solutions
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
 
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/network_light.svg"  alt="network"/>SOC & <br> NOC
-                      </a>
-                    </li>
+                  <div id="dropdown3" class="dropdown">
+                    <ul role="menu">
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html" >
+                          <img src="./assets/icons/demo.svg" class="icon"  alt="demo"/>
+                          <div>
+                            <span class="dropdown-link-title">Demo & POC</span>
+                            <p>Shorts featured today by curators</p>
+                          </div>
+                        </a>
+                      </li>
 
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/solution_light.svg"  alt="solution"/>Solution <br> Consulting
-                      </a>
-                    </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/solution_design.svg" class="icon"  alt="solution"/>
+                          <div>
+                            <span class="dropdown-link-title">Solution design</span>
+                            <p>Leading creatives livestreams</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/implementation.svg" class="icon"  alt="implement"/>
+                          <div>
+                            <span class="dropdown-link-title">Implementation</span>
+                            <p>Gain exclusive access</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">
+                          <img src="./assets/icons/assessment.svg" class="icon"  alt="assessment"/>
+                          <div>
+                            <span class="dropdown-link-title">Assessment Services</span>
+                            <p>See trending creations</p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">
-                        <img src="./assets/icons/tech_light.svg"  alt="tech"/>Tech <br> Support
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">Training
-                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                </button>
-                <div id="dropdown2" class="dropdown">
-                  <ul role="menu">
-                    <li>
-                      <span class="dropdown-link-title">Browse Categories</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">Awareness Training</a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">Technology Training</a>
-                    </li>
-                  </ul>
-                  <ul role="menu">
-                    <li>
-                      <span class="dropdown-link-title">Get Help</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">Help Centre</a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="services.html">Contact Support</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="nav-link" href="about-us.html">Contact</a></li>
-              <li><a class="nav-link" href="about-us.html">About </a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="nav-end">
-          <div class="right-container">
-            <form class="search" role="search">
-              <label>
-                <input type="search" name="search" placeholder="Search" />
-              </label>
-              <i class="bx bx-search" aria-hidden="true"></i>
-            </form>
+                <li>
+                  <button class="nav-link dropdown-button" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">Training
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown2" class="dropdown">
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">Browse Categories</span>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">Awareness Training</a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">Technology Training</a>
+                      </li>
+                    </ul>
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">Get Help</span>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">Help Centre</a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="services.html">Contact Support</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
 
-            <button class="btn btn-primary">Partner</button>
+                <li><a class="nav-link" href="about-us.html">Contact</a></li>
+              </ul>
+
+            </nav>
           </div>
+          <div class="nav-end">
+            <div class="right-container">
+              <form class="search" role="search">
+                <label>
+                  <input type="search" name="search" placeholder="Search" />
+                </label>
+                <i class="bx bx-search" aria-hidden="true"></i>
+              </form>
+              <a href="partner.html">
+                <button class="button button-primary">Partner</button>
+              </a>
+            </div>
 
-          <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
-            <i class="bx bx-menu" aria-hidden="true"></i>
-          </button>
+            <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+              <i class="bx bx-menu" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
     </header>
 
   <!--========== HOME SECTION =======-->
 
-  <section class="home__section">
+  <section class="section home__section">
     <div class="home__container">
-      <video class="video-slide active" src="assets/videos/code.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="assets/videos/matrix.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="assets/videos/network.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="assets/videos/server.mp4" autoplay muted loop></video>
-
+      <div class="video__holder">
+        <video class="video-slide active" src="assets/videos/matrix.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="assets/videos/network.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="assets/videos/server.mp4" autoplay muted loop></video>
+      </div>
       <div class="home__content">
         <h2>
           Welcome to securebits
         </h2>
         <h1>
-          The Uncompromised <br>
-          Cybersecurity Solution
+          The Uncompromised Cybersecurity Solution
         </h1>
         <div>
           <p class="home__description">
             Lorem ipsum dolor sit amet consectetur, adipiscing elit scelerisque hendrerit.Dapibus tortor sed praesent ornare cum augue consequat hac eleifend,venenatis volutpat arcu ante suspendisse aliquam id.
+            Lorem ipsum dolor sit amet consectetur, adipiscing elit scelerisque hendrerit.Dapibus tortor sed praesent ornare cum augue consequat hac eleifend,venenatis volutpat arcu ante suspendisse aliquam id.
           </p>
         </div>
-        <a href="#">Learn more</a>
+        <a href="#">
+          <button class="button button-home">Learn More</button>
+        </a>
         <div class="home__slider">
           <div class="home-btn__slider active"></div>
-          <div class="home-btn__slider"></div>
           <div class="home-btn__slider"></div>
           <div class="home-btn__slider"></div>
         </div>
@@ -193,7 +216,40 @@
     </div>
   </section>
 
-  <!--========== ABOUT US SECTION =======-->
+
+  <!--========== PARTNER SECTION =======-->
+
+  <section class="partners">
+    <h1 class="partners__title">Our Partners</h1>
+    <div class="partners-slider">
+      <div class="partners-slide-track">
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="Partner Logo 2" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="Partner Logo 3" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="Partner Logo 4" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="Partner Logo 5" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="Partner Logo 6" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="Partner Logo 7" />
+        </div>
+        <div class="partners-slide">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="Partner Logo 1" />
+        </div>
+        <!-- Repeat the pattern for the rest of the slides -->
+      </div>
+    </div>
+  </section>
+
+  <!--========== ARTICLE SECTION =======-->
 
   <section class="about__section" id="about">
     <div class="about__container">
@@ -280,7 +336,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -288,8 +343,8 @@
   <!--========== ARTICLE SECTION =======-->
 
   <section class="  article__container" id="article">
-    <h3 class="section__subheader">Insight And Trends</h3>
-    <h2 class="section__header">Recent Articles</h2>
+    <h3 class="article__subheader">Insight And Trends</h3>
+    <h2 class="article__header">Recent Articles</h2>
     <div class="article__grid">
       <div class="article__card">
         <img src="assets/images/article_1.png" alt="article" />
@@ -316,40 +371,15 @@
     </div>
   </section>
 
-  <!--========== EXPLORE SECTION =======-->
-
-  <section class="banner">
-    <div class="section__container banner__container">
-      <div class="banner__content">
-        <h3 class="banner__subheader">Join Us</h3>
-        <h2 class="banner__header">Stay Updated!</h2>
-        <p class="section__description">
-          From technological innovations to market updates, our curated
-          content keeps you informed.
-        </p>
-      </div>
-      <div class="banner__form">
-        <form action="/">
-          <label>
-            <input type="text" placeholder="Enter Your Email" />
-          </label>
-          <button class="banner__btn">Submit</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
   <!--========== FOOTER SECTION =======-->
 
   <footer class="footer">
     <div class="section__container footer__container">
       <div class="footer__col">
-        <div class="logo">
+        <div class="logo__footer">
           <a href="#"><img src="assets/images/logo-removebg-preview.png" alt="logo" /></a>
         </div>
-        <p>
-          Uncompromised cybersecurity
-        </p>
+        <p>Uncompromised Cybersecurity</p>
         <ul class="footer__socials">
           <li>
             <a href="#"><i class="ri-facebook-fill"></i></a>
@@ -384,36 +414,28 @@
         <ul class="footer__links">
           <li>
             <a href="#">
-              <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              <span><i class="ri-phone-fill"></i></span> +254xxxxxx
             </a>
           </li>
           <li>
             <a href="#">
-              <span><i class="ri-record-mail-line"></i></span> info@securebits
+              <span><i class="ri-record-mail-line"></i></span>info@securebits
             </a>
           </li>
           <li>
             <a href="#">
-              <span><i class="ri-map-pin-2-fill"></i></span> New Delhi, India
+              <span><i class="ri-map-pin-2-fill"></i></span> Nairobi
             </a>
           </li>
         </ul>
       </div>
-      <div class="footer__col">
-        <h4>Subscribe</h4>
-        <form action="/">
-          <label>
-            <input type="text" placeholder="Enter your email" />
-          </label>
-          <button class="btn subscribe__btn">Subscribe</button>
-        </form>
-      </div>
     </div>
     <div class="footer__bar">
-      Copyright © SecureBits . All rights reserved.
+      <p>Copyright © SecureBits . All rights reserved.</p>
     </div>
   </footer>
 
+  <!--========== SCRIPTS =======-->
   <script src="assets/Js/script.js"></script>
   </body>
 </html>
